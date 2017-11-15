@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "version": "1.4",
+    "name": "WoW Deutschlandisierer",
+    "author": "Raphael Stadler",
+    
+    "permissions": [
+        "https://eu.battle.net/forums/de/wow/*"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["https://eu.battle.net/forums/de/wow/*"],
+            "js": ["myscript.js"]
+        }
+    ]
+
+
+}
+
+
